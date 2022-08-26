@@ -1,0 +1,41 @@
+.cell{
+    width:75px;
+    height:75px;
+    border:2px solid;
+    box-shadow: 0 0 0 2px;
+    font-size:50px;
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor:pointer;
+}
+#gamecontainer{
+    text-align:center;
+    justify-content:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#cellcontainer{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+    width:235px;
+    margin:auto;
+    
+}
+#restart{
+    font-size: 25px;
+    border-radius:10px;
+    background-color: aqua;
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor:pointer;
+}
+body{
+    text-align: center;
+    justify-content: center;
+   background-color:lightgray;
+}
+p{
+    font-size: large;
+}
+audio{
+    visibility: hidden;
+}
